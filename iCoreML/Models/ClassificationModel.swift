@@ -10,6 +10,7 @@ import Vision
 import UIKit
 
 class ClassificationModel {
+  
   private var model: VNCoreMLModel?
   
   init() {
