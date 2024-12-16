@@ -44,19 +44,21 @@ struct LandingView: View {
       
       if let classificationResult = viewModel.classificationResult,
          let confidenceScore = viewModel.confidenceScore {
-        Text("Résultat de la classification :")
-          .font(.headline)
-          .padding()
-        
-        Text("Classe : \(classificationResult)") // Affiche le nom de la classe
-          .padding(5)
-          .background(Color.gray.opacity(0.1))
-          .cornerRadius(5)
-        
-        Text("Confiance : \(String(format: "%.2f", confidenceScore * 100))%") // Affiche le score de confiance
-          .padding(5)
-          .background(Color.gray.opacity(0.1))
-          .cornerRadius(5)
+        VStack{
+          Text("Résultat de la classification :")
+            .font(.title3)
+            .bold()
+          Divider()
+          VStack(alignment: .leading){
+            Text("Classe : \(classificationResult)")
+            Text("Confiance : \(String(format: "%.2f", confidenceScore * 100))%")
+          }
+          .padding(.horizontal)
+        }
+        .padding(.vertical)
+        .frame(width: 325)
+        .background(Color.gray.opacity(0.1))
+        .clipShape(RoundedRectangle(cornerRadius: 10))
       }
     }
     .padding()
