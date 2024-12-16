@@ -11,7 +11,7 @@ iCoreML est une application native iOS qui utilise le machine learning via CoreM
 
 ## ScreenCast
 
-https://github.com/user-attachments/assets/e7f38c93-c96e-42d6-9c12-e6fff36b4513
+https://github.com/user-attachments/assets/f0e6ddf1-eee0-4b82-ae63-4b36692a94cc
 
 ## Fonctionnalités principales
 
