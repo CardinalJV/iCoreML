@@ -30,9 +30,10 @@ Développé avec SwiftUI, l'interface est simple à utiliser et offre une bonne 
 ## Détails techniques 
 
 - Langage : Swift
+- Framework : SwiftUI
 - SDK : CoreML
 - Architecture : MVVM
-- Version iOS supportée : iOS 14 et plus
+- Version iOS supportée : iOS 18 et plus
 
 ## Installation
 
