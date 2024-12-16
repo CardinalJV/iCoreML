@@ -9,6 +9,10 @@
 
 iCoreML est une application native iOS qui utilise le machine learning via CoreML pour analyser et reconnaître l'objet principal d'une image fournie par l'utilisateur.
 
+## ScreenCast
+
+https://github.com/user-attachments/assets/e7f38c93-c96e-42d6-9c12-e6fff36b4513
+
 ## Fonctionnalités principales
 
 - Reconnaissance d'images :
