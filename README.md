@@ -7,38 +7,31 @@
 
 # iCoreML
 
-iCoreML est une application native iOS qui utilise le machine learning via CoreML pour analyser et reconnaître l'objet principal d'une image fournie par l'utilisateur.
+iCoreML is a native iOS application that uses machine learning via CoreML to analyze and recognize the main object in an image provided by the user.
 
-## ScreenCast
+# ScreenCast
 
 https://github.com/user-attachments/assets/20931b53-688a-445e-a121-336c37bbd737
 
-## Fonctionnalités principales
+## Key Features
 
-- Reconnaissance d'images :
-  
-Intégration de CoreML pour identifier et classifier l'objet principal dans une image.
+- Image Recognition:
+Integration with CoreML to identify and classify the main object in an image.
+- Image Capture and Analysis:
+Users can either capture an image with the camera or select an image from their gallery for analysis.
+- Pre-trained Model Usage:
+The project uses a pre-trained image classification model, MobileNetV2, to deliver fast and accurate results.
+- Intuitive User Interface:
+Built with SwiftUI, the interface is easy to use and provides a smooth user experience during image loading and analysis.
 
-- Capture et analyse d'images :
-  
-Les utilisateurs peuvent soit capturer une image avec l'appareil photo, soit choisir une image depuis leur galerie pour l'analyse.
+## Technical Details
 
-- Utilisation de modèle pré-entraîné :
-
-Le projet exploite un modèle pré-entraîné, MobileNetV2, de classification d'images pour fournir des résultats rapides et précis.
-
-- Interface utilisateur intuitive :
-  
-Développé avec SwiftUI, l'interface est simple à utiliser et offre une bonne expérience utilisateur lors du chargement et de l'analyse d'images.
-
-## Détails techniques 
-
-- Langage : Swift
-- Framework : SwiftUI
-- SDK : CoreML
-- Architecture : MVVM
-- Version iOS supportée : iOS 18 et plus
+- Language: Swift
+- Framework: SwiftUI
+- SDK: CoreML
+- Architecture: MVVM
+- Supported iOS Version: iOS 18 and above
 
 ## Installation
 
-Clonez le projet depuis le dépôt GitHub, puis ouvrez-le dans Xcode. Assurez-vous que vous utilisez la dernière version de Xcode compatible avec Swift 5 et SwiftUI pour éviter tout problème de compatibilité.
+Clone the project from the GitHub repository, then open it in Xcode. Make sure you’re using the latest version of Xcode compatible with Swift 5 and SwiftUI to avoid compatibility issues.
